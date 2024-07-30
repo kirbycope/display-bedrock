@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Display",
+		"description": "Display Behavior Pack",
+		"uuid": "49d2bc32-6f9d-0307-3504-82bc478c1a5c",
+		"version": [1, 21, 2],
+		"min_engine_version": [1, 20, 1]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.5.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 21, 2],
+			"uuid": "865821e4-6880-2685-14d0-9de766c34747",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "e45556b3-04cc-c858-01a6-f4f7d9bb2c92",
+			"version": [1, 21, 2]
+		}
+	]
+}

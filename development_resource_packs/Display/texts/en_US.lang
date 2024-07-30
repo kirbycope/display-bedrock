@@ -1,0 +1,4 @@
+entity.display:block.name=Block
+item.spawn_egg.entity.display:block.name=Spawn Block
+entity.display:item.name=Item
+item.spawn_egg.entity.display:item.name=Spawn Item
