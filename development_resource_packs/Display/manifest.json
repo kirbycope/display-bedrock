@@ -1,7 +1,7 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Display Block",
+		"name": "Display",
 		"description": "Display Resource Pack",
 		"uuid": "e45556b3-04cc-c858-01a6-f4f7d9bb2c92",
 		"version": [1, 21, 2],
