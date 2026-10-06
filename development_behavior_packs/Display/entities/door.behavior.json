@@ -1,0 +1,1131 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "display:door",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "oak_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 0
+						}
+					},
+					{
+						"on_interact": {
+							"event": "oak_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 100
+						}
+					},
+					{
+						"on_interact": {
+							"event": "spruce_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 1
+						}
+					},
+					{
+						"on_interact": {
+							"event": "spruce_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 101
+						}
+					},
+					{
+						"on_interact": {
+							"event": "birch_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 2
+						}
+					},
+					{
+						"on_interact": {
+							"event": "birch_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 102
+						}
+					},
+					{
+						"on_interact": {
+							"event": "jungle_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 3
+						}
+					},
+					{
+						"on_interact": {
+							"event": "jungle_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 103
+						}
+					},
+					{
+						"on_interact": {
+							"event": "acacia_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 4
+						}
+					},
+					{
+						"on_interact": {
+							"event": "acacia_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 104
+						}
+					},
+					{
+						"on_interact": {
+							"event": "dark_oak_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 5
+						}
+					},
+					{
+						"on_interact": {
+							"event": "dark_oak_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 105
+						}
+					},
+					{
+						"on_interact": {
+							"event": "mangrove_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 6
+						}
+					},
+					{
+						"on_interact": {
+							"event": "mangrove_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 106
+						}
+					},
+					{
+						"on_interact": {
+							"event": "cherry_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 7
+						}
+					},
+					{
+						"on_interact": {
+							"event": "cherry_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 107
+						}
+					},
+					{
+						"on_interact": {
+							"event": "bamboo_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 8
+						}
+					},
+					{
+						"on_interact": {
+							"event": "bamboo_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 108
+						}
+					},
+					{
+						"on_interact": {
+							"event": "crimson_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 9
+						}
+					},
+					{
+						"on_interact": {
+							"event": "crimson_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 109
+						}
+					},
+					{
+						"on_interact": {
+							"event": "warped_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 10
+						}
+					},
+					{
+						"on_interact": {
+							"event": "warped_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 110
+						}
+					},
+					{
+						"on_interact": {
+							"event": "iron_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 11
+						}
+					},
+					{
+						"on_interact": {
+							"event": "iron_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 111
+						}
+					},
+					{
+						"on_interact": {
+							"event": "poplar_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 12
+						}
+					},
+					{
+						"on_interact": {
+							"event": "poplar_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 112
+						}
+					},
+					{
+						"on_interact": {
+							"event": "copper_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 13
+						}
+					},
+					{
+						"on_interact": {
+							"event": "copper_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 113
+						}
+					}
+				]
+			},
+			"minecraft:variant": {
+				"value": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 2.0
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"display:door_closed": {
+				"minecraft:collision_box": {
+					"width": 0.25,
+					"height": 2.0
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": false
+				}
+			},
+			"display:door_open": {
+				"minecraft:collision_box": {
+					"width": 0.25,
+					"height": 2.0
+				},
+				"minecraft:physics": {
+					"has_collision": false,
+					"has_gravity": false
+				},
+				"minecraft:push_through": {
+					"value": 1.0
+				}
+			},
+			"display:door_oak_closed": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"display:door_oak_open": {
+				"minecraft:variant": {
+					"value": 100
+				}
+			},
+			"display:door_spruce_closed": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"display:door_spruce_open": {
+				"minecraft:variant": {
+					"value": 101
+				}
+			},
+			"display:door_birch_closed": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"display:door_birch_open": {
+				"minecraft:variant": {
+					"value": 102
+				}
+			},
+			"display:door_jungle_closed": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"display:door_jungle_open": {
+				"minecraft:variant": {
+					"value": 103
+				}
+			},
+			"display:door_acacia_closed": {
+				"minecraft:variant": {
+					"value": 4
+				}
+			},
+			"display:door_acacia_open": {
+				"minecraft:variant": {
+					"value": 104
+				}
+			},
+			"display:door_dark_oak_closed": {
+				"minecraft:variant": {
+					"value": 5
+				}
+			},
+			"display:door_dark_oak_open": {
+				"minecraft:variant": {
+					"value": 105
+				}
+			},
+			"display:door_mangrove_closed": {
+				"minecraft:variant": {
+					"value": 6
+				}
+			},
+			"display:door_mangrove_open": {
+				"minecraft:variant": {
+					"value": 106
+				}
+			},
+			"display:door_cherry_closed": {
+				"minecraft:variant": {
+					"value": 7
+				}
+			},
+			"display:door_cherry_open": {
+				"minecraft:variant": {
+					"value": 107
+				}
+			},
+			"display:door_bamboo_closed": {
+				"minecraft:variant": {
+					"value": 8
+				}
+			},
+			"display:door_bamboo_open": {
+				"minecraft:variant": {
+					"value": 108
+				}
+			},
+			"display:door_crimson_closed": {
+				"minecraft:variant": {
+					"value": 9
+				}
+			},
+			"display:door_crimson_open": {
+				"minecraft:variant": {
+					"value": 109
+				}
+			},
+			"display:door_warped_closed": {
+				"minecraft:variant": {
+					"value": 10
+				}
+			},
+			"display:door_warped_open": {
+				"minecraft:variant": {
+					"value": 110
+				}
+			},
+			"display:door_iron_closed": {
+				"minecraft:variant": {
+					"value": 11
+				}
+			},
+			"display:door_iron_open": {
+				"minecraft:variant": {
+					"value": 111
+				}
+			},
+			"display:door_poplar_closed": {
+				"minecraft:variant": {
+					"value": 12
+				}
+			},
+			"display:door_poplar_open": {
+				"minecraft:variant": {
+					"value": 112
+				}
+			},
+			"display:door_copper_closed": {
+				"minecraft:variant": {
+					"value": 13
+				}
+			},
+			"display:door_copper_open": {
+				"minecraft:variant": {
+					"value": 113
+				}
+			}
+		},
+		"events": {
+			"oak": {
+				"add": {
+					"component_groups": [
+						"display:door_oak_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_oak_open",
+						"display:door_open"
+					]
+				}
+			},
+			"oak_open": {
+				"add": {
+					"component_groups": [
+						"display:door_oak_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_oak_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"oak_close": {
+				"add": {
+					"component_groups": [
+						"display:door_oak_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_oak_open",
+						"display:door_open"
+					]
+				}
+			},
+			"spruce": {
+				"add": {
+					"component_groups": [
+						"display:door_spruce_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_spruce_open",
+						"display:door_open"
+					]
+				}
+			},
+			"spruce_open": {
+				"add": {
+					"component_groups": [
+						"display:door_spruce_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_spruce_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"spruce_close": {
+				"add": {
+					"component_groups": [
+						"display:door_spruce_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_spruce_open",
+						"display:door_open"
+					]
+				}
+			},
+			"birch": {
+				"add": {
+					"component_groups": [
+						"display:door_birch_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_birch_open",
+						"display:door_open"
+					]
+				}
+			},
+			"birch_open": {
+				"add": {
+					"component_groups": [
+						"display:door_birch_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_birch_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"birch_close": {
+				"add": {
+					"component_groups": [
+						"display:door_birch_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_birch_open",
+						"display:door_open"
+					]
+				}
+			},
+			"jungle": {
+				"add": {
+					"component_groups": [
+						"display:door_jungle_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_jungle_open",
+						"display:door_open"
+					]
+				}
+			},
+			"jungle_open": {
+				"add": {
+					"component_groups": [
+						"display:door_jungle_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_jungle_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"jungle_close": {
+				"add": {
+					"component_groups": [
+						"display:door_jungle_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_jungle_open",
+						"display:door_open"
+					]
+				}
+			},
+			"acacia": {
+				"add": {
+					"component_groups": [
+						"display:door_acacia_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_acacia_open",
+						"display:door_open"
+					]
+				}
+			},
+			"acacia_open": {
+				"add": {
+					"component_groups": [
+						"display:door_acacia_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_acacia_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"acacia_close": {
+				"add": {
+					"component_groups": [
+						"display:door_acacia_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_acacia_open",
+						"display:door_open"
+					]
+				}
+			},
+			"dark_oak": {
+				"add": {
+					"component_groups": [
+						"display:door_dark_oak_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_dark_oak_open",
+						"display:door_open"
+					]
+				}
+			},
+			"dark_oak_open": {
+				"add": {
+					"component_groups": [
+						"display:door_dark_oak_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_dark_oak_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"dark_oak_close": {
+				"add": {
+					"component_groups": [
+						"display:door_dark_oak_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_dark_oak_open",
+						"display:door_open"
+					]
+				}
+			},
+			"mangrove": {
+				"add": {
+					"component_groups": [
+						"display:door_mangrove_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_mangrove_open",
+						"display:door_open"
+					]
+				}
+			},
+			"mangrove_open": {
+				"add": {
+					"component_groups": [
+						"display:door_mangrove_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_mangrove_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"mangrove_close": {
+				"add": {
+					"component_groups": [
+						"display:door_mangrove_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_mangrove_open",
+						"display:door_open"
+					]
+				}
+			},
+			"cherry": {
+				"add": {
+					"component_groups": [
+						"display:door_cherry_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_cherry_open",
+						"display:door_open"
+					]
+				}
+			},
+			"cherry_open": {
+				"add": {
+					"component_groups": [
+						"display:door_cherry_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_cherry_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"cherry_close": {
+				"add": {
+					"component_groups": [
+						"display:door_cherry_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_cherry_open",
+						"display:door_open"
+					]
+				}
+			},
+			"bamboo": {
+				"add": {
+					"component_groups": [
+						"display:door_bamboo_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_bamboo_open",
+						"display:door_open"
+					]
+				}
+			},
+			"bamboo_open": {
+				"add": {
+					"component_groups": [
+						"display:door_bamboo_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_bamboo_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"bamboo_close": {
+				"add": {
+					"component_groups": [
+						"display:door_bamboo_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_bamboo_open",
+						"display:door_open"
+					]
+				}
+			},
+			"crimson": {
+				"add": {
+					"component_groups": [
+						"display:door_crimson_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_crimson_open",
+						"display:door_open"
+					]
+				}
+			},
+			"crimson_open": {
+				"add": {
+					"component_groups": [
+						"display:door_crimson_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_crimson_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"crimson_close": {
+				"add": {
+					"component_groups": [
+						"display:door_crimson_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_crimson_open",
+						"display:door_open"
+					]
+				}
+			},
+			"warped": {
+				"add": {
+					"component_groups": [
+						"display:door_warped_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_warped_open",
+						"display:door_open"
+					]
+				}
+			},
+			"warped_open": {
+				"add": {
+					"component_groups": [
+						"display:door_warped_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_warped_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"warped_close": {
+				"add": {
+					"component_groups": [
+						"display:door_warped_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_warped_open",
+						"display:door_open"
+					]
+				}
+			},
+			"iron": {
+				"add": {
+					"component_groups": [
+						"display:door_iron_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_iron_open",
+						"display:door_open"
+					]
+				}
+			},
+			"iron_open": {
+				"add": {
+					"component_groups": [
+						"display:door_iron_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_iron_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"iron_close": {
+				"add": {
+					"component_groups": [
+						"display:door_iron_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_iron_open",
+						"display:door_open"
+					]
+				}
+			},
+			"poplar": {
+				"add": {
+					"component_groups": [
+						"display:door_poplar_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_poplar_open",
+						"display:door_open"
+					]
+				}
+			},
+			"poplar_open": {
+				"add": {
+					"component_groups": [
+						"display:door_poplar_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_poplar_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"poplar_close": {
+				"add": {
+					"component_groups": [
+						"display:door_poplar_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_poplar_open",
+						"display:door_open"
+					]
+				}
+			},
+			"copper": {
+				"add": {
+					"component_groups": [
+						"display:door_copper_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_copper_open",
+						"display:door_open"
+					]
+				}
+			},
+			"copper_open": {
+				"add": {
+					"component_groups": [
+						"display:door_copper_open",
+						"display:door_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_copper_closed",
+						"display:door_closed"
+					]
+				}
+			},
+			"copper_close": {
+				"add": {
+					"component_groups": [
+						"display:door_copper_closed",
+						"display:door_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:door_copper_open",
+						"display:door_open"
+					]
+				}
+			}
+		}
+	}
+}

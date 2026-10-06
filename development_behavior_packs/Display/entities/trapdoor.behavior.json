@@ -1,0 +1,1131 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "display:trapdoor",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "oak_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 0
+						}
+					},
+					{
+						"on_interact": {
+							"event": "oak_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 100
+						}
+					},
+					{
+						"on_interact": {
+							"event": "spruce_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 1
+						}
+					},
+					{
+						"on_interact": {
+							"event": "spruce_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 101
+						}
+					},
+					{
+						"on_interact": {
+							"event": "birch_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 2
+						}
+					},
+					{
+						"on_interact": {
+							"event": "birch_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 102
+						}
+					},
+					{
+						"on_interact": {
+							"event": "jungle_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 3
+						}
+					},
+					{
+						"on_interact": {
+							"event": "jungle_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 103
+						}
+					},
+					{
+						"on_interact": {
+							"event": "acacia_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 4
+						}
+					},
+					{
+						"on_interact": {
+							"event": "acacia_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 104
+						}
+					},
+					{
+						"on_interact": {
+							"event": "dark_oak_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 5
+						}
+					},
+					{
+						"on_interact": {
+							"event": "dark_oak_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 105
+						}
+					},
+					{
+						"on_interact": {
+							"event": "mangrove_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 6
+						}
+					},
+					{
+						"on_interact": {
+							"event": "mangrove_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 106
+						}
+					},
+					{
+						"on_interact": {
+							"event": "cherry_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 7
+						}
+					},
+					{
+						"on_interact": {
+							"event": "cherry_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 107
+						}
+					},
+					{
+						"on_interact": {
+							"event": "bamboo_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 8
+						}
+					},
+					{
+						"on_interact": {
+							"event": "bamboo_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 108
+						}
+					},
+					{
+						"on_interact": {
+							"event": "crimson_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 9
+						}
+					},
+					{
+						"on_interact": {
+							"event": "crimson_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 109
+						}
+					},
+					{
+						"on_interact": {
+							"event": "warped_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 10
+						}
+					},
+					{
+						"on_interact": {
+							"event": "warped_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 110
+						}
+					},
+					{
+						"on_interact": {
+							"event": "iron_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 11
+						}
+					},
+					{
+						"on_interact": {
+							"event": "iron_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 111
+						}
+					},
+					{
+						"on_interact": {
+							"event": "poplar_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 12
+						}
+					},
+					{
+						"on_interact": {
+							"event": "poplar_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 112
+						}
+					},
+					{
+						"on_interact": {
+							"event": "copper_open",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 13
+						}
+					},
+					{
+						"on_interact": {
+							"event": "copper_close",
+							"target": "self"
+						},
+						"filters": {
+							"test": "variant",
+							"subject": "self",
+							"operator": "==",
+							"value": 113
+						}
+					}
+				]
+			},
+			"minecraft:variant": {
+				"value": 0
+			},
+			"minecraft:collision_box": {
+				"width": 1.0,
+				"height": 0.2
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"display:trapdoor_closed": {
+				"minecraft:collision_box": {
+					"width": 1.0,
+					"height": 0.2
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": false
+				}
+			},
+			"display:trapdoor_open": {
+				"minecraft:collision_box": {
+					"width": 1.0,
+					"height": 0.2
+				},
+				"minecraft:physics": {
+					"has_collision": false,
+					"has_gravity": false
+				},
+				"minecraft:push_through": {
+					"value": 1.0
+				}
+			},
+			"display:trapdoor_oak_closed": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"display:trapdoor_oak_open": {
+				"minecraft:variant": {
+					"value": 100
+				}
+			},
+			"display:trapdoor_spruce_closed": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"display:trapdoor_spruce_open": {
+				"minecraft:variant": {
+					"value": 101
+				}
+			},
+			"display:trapdoor_birch_closed": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"display:trapdoor_birch_open": {
+				"minecraft:variant": {
+					"value": 102
+				}
+			},
+			"display:trapdoor_jungle_closed": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"display:trapdoor_jungle_open": {
+				"minecraft:variant": {
+					"value": 103
+				}
+			},
+			"display:trapdoor_acacia_closed": {
+				"minecraft:variant": {
+					"value": 4
+				}
+			},
+			"display:trapdoor_acacia_open": {
+				"minecraft:variant": {
+					"value": 104
+				}
+			},
+			"display:trapdoor_dark_oak_closed": {
+				"minecraft:variant": {
+					"value": 5
+				}
+			},
+			"display:trapdoor_dark_oak_open": {
+				"minecraft:variant": {
+					"value": 105
+				}
+			},
+			"display:trapdoor_mangrove_closed": {
+				"minecraft:variant": {
+					"value": 6
+				}
+			},
+			"display:trapdoor_mangrove_open": {
+				"minecraft:variant": {
+					"value": 106
+				}
+			},
+			"display:trapdoor_cherry_closed": {
+				"minecraft:variant": {
+					"value": 7
+				}
+			},
+			"display:trapdoor_cherry_open": {
+				"minecraft:variant": {
+					"value": 107
+				}
+			},
+			"display:trapdoor_bamboo_closed": {
+				"minecraft:variant": {
+					"value": 8
+				}
+			},
+			"display:trapdoor_bamboo_open": {
+				"minecraft:variant": {
+					"value": 108
+				}
+			},
+			"display:trapdoor_crimson_closed": {
+				"minecraft:variant": {
+					"value": 9
+				}
+			},
+			"display:trapdoor_crimson_open": {
+				"minecraft:variant": {
+					"value": 109
+				}
+			},
+			"display:trapdoor_warped_closed": {
+				"minecraft:variant": {
+					"value": 10
+				}
+			},
+			"display:trapdoor_warped_open": {
+				"minecraft:variant": {
+					"value": 110
+				}
+			},
+			"display:trapdoor_iron_closed": {
+				"minecraft:variant": {
+					"value": 11
+				}
+			},
+			"display:trapdoor_iron_open": {
+				"minecraft:variant": {
+					"value": 111
+				}
+			},
+			"display:trapdoor_poplar_closed": {
+				"minecraft:variant": {
+					"value": 12
+				}
+			},
+			"display:trapdoor_poplar_open": {
+				"minecraft:variant": {
+					"value": 112
+				}
+			},
+			"display:trapdoor_copper_closed": {
+				"minecraft:variant": {
+					"value": 13
+				}
+			},
+			"display:trapdoor_copper_open": {
+				"minecraft:variant": {
+					"value": 113
+				}
+			}
+		},
+		"events": {
+			"oak": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_oak_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_oak_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"oak_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_oak_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_oak_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"oak_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_oak_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_oak_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"spruce": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_spruce_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_spruce_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"spruce_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_spruce_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_spruce_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"spruce_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_spruce_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_spruce_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"birch": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_birch_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_birch_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"birch_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_birch_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_birch_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"birch_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_birch_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_birch_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"jungle": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_jungle_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_jungle_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"jungle_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_jungle_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_jungle_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"jungle_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_jungle_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_jungle_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"acacia": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_acacia_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_acacia_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"acacia_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_acacia_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_acacia_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"acacia_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_acacia_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_acacia_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"dark_oak": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_dark_oak_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_dark_oak_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"dark_oak_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_dark_oak_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_dark_oak_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"dark_oak_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_dark_oak_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_dark_oak_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"mangrove": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_mangrove_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_mangrove_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"mangrove_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_mangrove_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_mangrove_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"mangrove_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_mangrove_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_mangrove_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"cherry": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_cherry_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_cherry_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"cherry_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_cherry_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_cherry_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"cherry_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_cherry_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_cherry_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"bamboo": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_bamboo_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_bamboo_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"bamboo_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_bamboo_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_bamboo_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"bamboo_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_bamboo_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_bamboo_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"crimson": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_crimson_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_crimson_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"crimson_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_crimson_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_crimson_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"crimson_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_crimson_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_crimson_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"warped": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_warped_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_warped_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"warped_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_warped_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_warped_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"warped_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_warped_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_warped_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"iron": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_iron_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_iron_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"iron_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_iron_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_iron_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"iron_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_iron_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_iron_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"poplar": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_poplar_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_poplar_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"poplar_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_poplar_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_poplar_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"poplar_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_poplar_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_poplar_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"copper": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_copper_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_copper_open",
+						"display:trapdoor_open"
+					]
+				}
+			},
+			"copper_open": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_copper_open",
+						"display:trapdoor_open"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_copper_closed",
+						"display:trapdoor_closed"
+					]
+				}
+			},
+			"copper_close": {
+				"add": {
+					"component_groups": [
+						"display:trapdoor_copper_closed",
+						"display:trapdoor_closed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"display:trapdoor_copper_open",
+						"display:trapdoor_open"
+					]
+				}
+			}
+		}
+	}
+}
