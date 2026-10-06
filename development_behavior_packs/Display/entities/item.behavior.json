@@ -101,10 +101,10 @@
 					"value": 5.0
 				}
 			},
-			"display:add_collision" :{
+			"display:add_collision": {
 				"minecraft:collision_box": {
-				"height": 1.0,
-				"width": 0.1
+					"height": 1.0,
+					"width": 0.1
 				},
 				"minecraft:is_stackable": {},
 				"minecraft:physics": {
@@ -3335,6 +3335,91 @@
 			"display:yellow_candle": {
 				"minecraft:variant": {
 					"value": 644
+				}
+			},
+			"display:white_cushion": {
+				"minecraft:variant": {
+					"value": 645
+				}
+			},
+			"display:orange_cushion": {
+				"minecraft:variant": {
+					"value": 646
+				}
+			},
+			"display:magenta_cushion": {
+				"minecraft:variant": {
+					"value": 647
+				}
+			},
+			"display:light_blue_cushion": {
+				"minecraft:variant": {
+					"value": 648
+				}
+			},
+			"display:yellow_cushion": {
+				"minecraft:variant": {
+					"value": 649
+				}
+			},
+			"display:lime_cushion": {
+				"minecraft:variant": {
+					"value": 650
+				}
+			},
+			"display:pink_cushion": {
+				"minecraft:variant": {
+					"value": 651
+				}
+			},
+			"display:gray_cushion": {
+				"minecraft:variant": {
+					"value": 652
+				}
+			},
+			"display:light_gray_cushion": {
+				"minecraft:variant": {
+					"value": 653
+				}
+			},
+			"display:cyan_cushion": {
+				"minecraft:variant": {
+					"value": 654
+				}
+			},
+			"display:purple_cushion": {
+				"minecraft:variant": {
+					"value": 655
+				}
+			},
+			"display:blue_cushion": {
+				"minecraft:variant": {
+					"value": 656
+				}
+			},
+			"display:brown_cushion": {
+				"minecraft:variant": {
+					"value": 657
+				}
+			},
+			"display:green_cushion": {
+				"minecraft:variant": {
+					"value": 658
+				}
+			},
+			"display:red_cushion": {
+				"minecraft:variant": {
+					"value": 659
+				}
+			},
+			"display:black_cushion": {
+				"minecraft:variant": {
+					"value": 660
+				}
+			},
+			"display:straw_bed": {
+				"minecraft:variant": {
+					"value": 661
 				}
 			}
 		},
@@ -7956,6 +8041,125 @@
 				"add": {
 					"component_groups": [
 						"display:yellow_candle"
+					]
+				}
+			},
+			"white_cushion": {
+				"add": {
+					"component_groups": [
+						"display:white_cushion"
+					]
+				}
+			},
+			"orange_cushion": {
+				"add": {
+					"component_groups": [
+						"display:orange_cushion"
+					]
+				}
+			},
+			"magenta_cushion": {
+				"add": {
+					"component_groups": [
+						"display:magenta_cushion"
+					]
+				}
+			},
+			"light_blue_cushion": {
+				"add": {
+					"component_groups": [
+						"display:light_blue_cushion"
+					]
+				}
+			},
+			"yellow_cushion": {
+				"add": {
+					"component_groups": [
+						"display:yellow_cushion"
+					]
+				}
+			},
+			"lime_cushion": {
+				"add": {
+					"component_groups": [
+						"display:lime_cushion"
+					]
+				}
+			},
+			"pink_cushion": {
+				"add": {
+					"component_groups": [
+						"display:pink_cushion"
+					]
+				}
+			},
+			"gray_cushion": {
+				"add": {
+					"component_groups": [
+						"display:gray_cushion"
+					]
+				}
+			},
+			"light_gray_cushion": {
+				"add": {
+					"component_groups": [
+						"display:light_gray_cushion"
+					]
+				}
+			},
+			"cyan_cushion": {
+				"add": {
+					"component_groups": [
+						"display:cyan_cushion"
+					]
+				}
+			},
+			"purple_cushion": {
+				"add": {
+					"component_groups": [
+						"display:purple_cushion"
+					]
+				}
+			},
+			"blue_cushion": {
+				"add": {
+					"component_groups": [
+						"display:blue_cushion"
+					]
+				}
+			},
+			"brown_cushion": {
+				"add": {
+					"component_groups": [
+						"display:brown_cushion"
+					]
+				}
+			},
+			"green_cushion": {
+				"add": {
+					"component_groups": [
+						"display:green_cushion"
+					]
+				}
+			},
+			"red_cushion": {
+				"add": {
+					"component_groups": [
+						"display:red_cushion"
+					]
+				}
+			},
+			"black_cushion": {
+				"add": {
+					"component_groups": [
+						"display:black_cushion"
+					]
+				}
+			},
+			"straw_bed": {
+				"add": {
+					"component_groups": [
+						"display:straw_bed"
 					]
 				}
 			}

@@ -101,10 +101,10 @@
 					"value": 5.0
 				}
 			},
-			"display:add_collision" :{
+			"display:add_collision": {
 				"minecraft:collision_box": {
-				"height": 1.0,
-				"width": 1.0
+					"height": 1.0,
+					"width": 1.0
 				},
 				"minecraft:is_stackable": {},
 				"minecraft:physics": {
@@ -5560,6 +5560,436 @@
 			"display:warped_trapdoor": {
 				"minecraft:variant": {
 					"value": 1089
+				}
+			},
+			"display:white_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1090
+				}
+			},
+			"display:white_wool_slab": {
+				"minecraft:variant": {
+					"value": 1091
+				}
+			},
+			"display:white_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1092
+				}
+			},
+			"display:white_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1093
+				}
+			},
+			"display:orange_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1094
+				}
+			},
+			"display:orange_wool_slab": {
+				"minecraft:variant": {
+					"value": 1095
+				}
+			},
+			"display:orange_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1096
+				}
+			},
+			"display:orange_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1097
+				}
+			},
+			"display:magenta_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1098
+				}
+			},
+			"display:magenta_wool_slab": {
+				"minecraft:variant": {
+					"value": 1099
+				}
+			},
+			"display:magenta_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1100
+				}
+			},
+			"display:magenta_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1101
+				}
+			},
+			"display:light_blue_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1102
+				}
+			},
+			"display:light_blue_wool_slab": {
+				"minecraft:variant": {
+					"value": 1103
+				}
+			},
+			"display:light_blue_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1104
+				}
+			},
+			"display:light_blue_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1105
+				}
+			},
+			"display:yellow_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1106
+				}
+			},
+			"display:yellow_wool_slab": {
+				"minecraft:variant": {
+					"value": 1107
+				}
+			},
+			"display:yellow_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1108
+				}
+			},
+			"display:yellow_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1109
+				}
+			},
+			"display:lime_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1110
+				}
+			},
+			"display:lime_wool_slab": {
+				"minecraft:variant": {
+					"value": 1111
+				}
+			},
+			"display:lime_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1112
+				}
+			},
+			"display:lime_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1113
+				}
+			},
+			"display:pink_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1114
+				}
+			},
+			"display:pink_wool_slab": {
+				"minecraft:variant": {
+					"value": 1115
+				}
+			},
+			"display:pink_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1116
+				}
+			},
+			"display:pink_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1117
+				}
+			},
+			"display:gray_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1118
+				}
+			},
+			"display:gray_wool_slab": {
+				"minecraft:variant": {
+					"value": 1119
+				}
+			},
+			"display:gray_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1120
+				}
+			},
+			"display:gray_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1121
+				}
+			},
+			"display:light_gray_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1122
+				}
+			},
+			"display:light_gray_wool_slab": {
+				"minecraft:variant": {
+					"value": 1123
+				}
+			},
+			"display:light_gray_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1124
+				}
+			},
+			"display:light_gray_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1125
+				}
+			},
+			"display:cyan_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1126
+				}
+			},
+			"display:cyan_wool_slab": {
+				"minecraft:variant": {
+					"value": 1127
+				}
+			},
+			"display:cyan_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1128
+				}
+			},
+			"display:cyan_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1129
+				}
+			},
+			"display:purple_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1130
+				}
+			},
+			"display:purple_wool_slab": {
+				"minecraft:variant": {
+					"value": 1131
+				}
+			},
+			"display:purple_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1132
+				}
+			},
+			"display:purple_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1133
+				}
+			},
+			"display:blue_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1134
+				}
+			},
+			"display:blue_wool_slab": {
+				"minecraft:variant": {
+					"value": 1135
+				}
+			},
+			"display:blue_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1136
+				}
+			},
+			"display:blue_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1137
+				}
+			},
+			"display:brown_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1138
+				}
+			},
+			"display:brown_wool_slab": {
+				"minecraft:variant": {
+					"value": 1139
+				}
+			},
+			"display:brown_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1140
+				}
+			},
+			"display:brown_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1141
+				}
+			},
+			"display:green_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1142
+				}
+			},
+			"display:green_wool_slab": {
+				"minecraft:variant": {
+					"value": 1143
+				}
+			},
+			"display:green_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1144
+				}
+			},
+			"display:green_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1145
+				}
+			},
+			"display:red_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1146
+				}
+			},
+			"display:red_wool_slab": {
+				"minecraft:variant": {
+					"value": 1147
+				}
+			},
+			"display:red_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1148
+				}
+			},
+			"display:red_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1149
+				}
+			},
+			"display:black_wool_stairs": {
+				"minecraft:variant": {
+					"value": 1150
+				}
+			},
+			"display:black_wool_slab": {
+				"minecraft:variant": {
+					"value": 1151
+				}
+			},
+			"display:black_concrete_stairs": {
+				"minecraft:variant": {
+					"value": 1152
+				}
+			},
+			"display:black_concrete_slab": {
+				"minecraft:variant": {
+					"value": 1153
+				}
+			},
+			"display:poplar_log": {
+				"minecraft:variant": {
+					"value": 1154
+				}
+			},
+			"display:stripped_poplar_log": {
+				"minecraft:variant": {
+					"value": 1155
+				}
+			},
+			"display:poplar_wood": {
+				"minecraft:variant": {
+					"value": 1156
+				}
+			},
+			"display:stripped_poplar_wood": {
+				"minecraft:variant": {
+					"value": 1157
+				}
+			},
+			"display:poplar_planks": {
+				"minecraft:variant": {
+					"value": 1158
+				}
+			},
+			"display:poplar_stairs": {
+				"minecraft:variant": {
+					"value": 1159
+				}
+			},
+			"display:poplar_slab": {
+				"minecraft:variant": {
+					"value": 1160
+				}
+			},
+			"display:poplar_fence": {
+				"minecraft:variant": {
+					"value": 1161
+				}
+			},
+			"display:poplar_fence_gate": {
+				"minecraft:variant": {
+					"value": 1162
+				}
+			},
+			"display:poplar_button": {
+				"minecraft:variant": {
+					"value": 1163
+				}
+			},
+			"display:poplar_pressure_plate": {
+				"minecraft:variant": {
+					"value": 1164
+				}
+			},
+			"display:poplar_door": {
+				"minecraft:variant": {
+					"value": 1165
+				}
+			},
+			"display:poplar_trapdoor": {
+				"minecraft:variant": {
+					"value": 1166
+				}
+			},
+			"display:poplar_sapling": {
+				"minecraft:variant": {
+					"value": 1167
+				}
+			},
+			"display:poplar_shelf": {
+				"minecraft:variant": {
+					"value": 1168
+				}
+			},
+			"display:red_poplar_leaves": {
+				"minecraft:variant": {
+					"value": 1169
+				}
+			},
+			"display:orange_poplar_leaves": {
+				"minecraft:variant": {
+					"value": 1170
+				}
+			},
+			"display:yellow_poplar_leaves": {
+				"minecraft:variant": {
+					"value": 1171
+				}
+			},
+			"display:shelf_mushroom_small": {
+				"minecraft:variant": {
+					"value": 1172
+				}
+			},
+			"display:shelf_mushroom_large": {
+				"minecraft:variant": {
+					"value": 1173
+				}
+			},
+			"display:red_shrub": {
+				"minecraft:variant": {
+					"value": 1174
+				}
+			},
+			"display:straw_bed": {
+				"minecraft:variant": {
+					"value": 1175
 				}
 			}
 		},
@@ -13296,6 +13726,608 @@
 				"add": {
 					"component_groups": [
 						"display:warped_trapdoor"
+					]
+				}
+			},
+			"white_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:white_wool_stairs"
+					]
+				}
+			},
+			"white_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:white_wool_slab"
+					]
+				}
+			},
+			"white_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:white_concrete_stairs"
+					]
+				}
+			},
+			"white_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:white_concrete_slab"
+					]
+				}
+			},
+			"orange_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:orange_wool_stairs"
+					]
+				}
+			},
+			"orange_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:orange_wool_slab"
+					]
+				}
+			},
+			"orange_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:orange_concrete_stairs"
+					]
+				}
+			},
+			"orange_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:orange_concrete_slab"
+					]
+				}
+			},
+			"magenta_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:magenta_wool_stairs"
+					]
+				}
+			},
+			"magenta_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:magenta_wool_slab"
+					]
+				}
+			},
+			"magenta_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:magenta_concrete_stairs"
+					]
+				}
+			},
+			"magenta_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:magenta_concrete_slab"
+					]
+				}
+			},
+			"light_blue_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:light_blue_wool_stairs"
+					]
+				}
+			},
+			"light_blue_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:light_blue_wool_slab"
+					]
+				}
+			},
+			"light_blue_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:light_blue_concrete_stairs"
+					]
+				}
+			},
+			"light_blue_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:light_blue_concrete_slab"
+					]
+				}
+			},
+			"yellow_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:yellow_wool_stairs"
+					]
+				}
+			},
+			"yellow_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:yellow_wool_slab"
+					]
+				}
+			},
+			"yellow_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:yellow_concrete_stairs"
+					]
+				}
+			},
+			"yellow_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:yellow_concrete_slab"
+					]
+				}
+			},
+			"lime_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:lime_wool_stairs"
+					]
+				}
+			},
+			"lime_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:lime_wool_slab"
+					]
+				}
+			},
+			"lime_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:lime_concrete_stairs"
+					]
+				}
+			},
+			"lime_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:lime_concrete_slab"
+					]
+				}
+			},
+			"pink_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:pink_wool_stairs"
+					]
+				}
+			},
+			"pink_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:pink_wool_slab"
+					]
+				}
+			},
+			"pink_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:pink_concrete_stairs"
+					]
+				}
+			},
+			"pink_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:pink_concrete_slab"
+					]
+				}
+			},
+			"gray_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:gray_wool_stairs"
+					]
+				}
+			},
+			"gray_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:gray_wool_slab"
+					]
+				}
+			},
+			"gray_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:gray_concrete_stairs"
+					]
+				}
+			},
+			"gray_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:gray_concrete_slab"
+					]
+				}
+			},
+			"light_gray_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:light_gray_wool_stairs"
+					]
+				}
+			},
+			"light_gray_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:light_gray_wool_slab"
+					]
+				}
+			},
+			"light_gray_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:light_gray_concrete_stairs"
+					]
+				}
+			},
+			"light_gray_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:light_gray_concrete_slab"
+					]
+				}
+			},
+			"cyan_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:cyan_wool_stairs"
+					]
+				}
+			},
+			"cyan_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:cyan_wool_slab"
+					]
+				}
+			},
+			"cyan_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:cyan_concrete_stairs"
+					]
+				}
+			},
+			"cyan_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:cyan_concrete_slab"
+					]
+				}
+			},
+			"purple_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:purple_wool_stairs"
+					]
+				}
+			},
+			"purple_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:purple_wool_slab"
+					]
+				}
+			},
+			"purple_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:purple_concrete_stairs"
+					]
+				}
+			},
+			"purple_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:purple_concrete_slab"
+					]
+				}
+			},
+			"blue_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:blue_wool_stairs"
+					]
+				}
+			},
+			"blue_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:blue_wool_slab"
+					]
+				}
+			},
+			"blue_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:blue_concrete_stairs"
+					]
+				}
+			},
+			"blue_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:blue_concrete_slab"
+					]
+				}
+			},
+			"brown_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:brown_wool_stairs"
+					]
+				}
+			},
+			"brown_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:brown_wool_slab"
+					]
+				}
+			},
+			"brown_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:brown_concrete_stairs"
+					]
+				}
+			},
+			"brown_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:brown_concrete_slab"
+					]
+				}
+			},
+			"green_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:green_wool_stairs"
+					]
+				}
+			},
+			"green_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:green_wool_slab"
+					]
+				}
+			},
+			"green_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:green_concrete_stairs"
+					]
+				}
+			},
+			"green_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:green_concrete_slab"
+					]
+				}
+			},
+			"red_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:red_wool_stairs"
+					]
+				}
+			},
+			"red_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:red_wool_slab"
+					]
+				}
+			},
+			"red_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:red_concrete_stairs"
+					]
+				}
+			},
+			"red_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:red_concrete_slab"
+					]
+				}
+			},
+			"black_wool_stairs": {
+				"add": {
+					"component_groups": [
+						"display:black_wool_stairs"
+					]
+				}
+			},
+			"black_wool_slab": {
+				"add": {
+					"component_groups": [
+						"display:black_wool_slab"
+					]
+				}
+			},
+			"black_concrete_stairs": {
+				"add": {
+					"component_groups": [
+						"display:black_concrete_stairs"
+					]
+				}
+			},
+			"black_concrete_slab": {
+				"add": {
+					"component_groups": [
+						"display:black_concrete_slab"
+					]
+				}
+			},
+			"poplar_log": {
+				"add": {
+					"component_groups": [
+						"display:poplar_log"
+					]
+				}
+			},
+			"stripped_poplar_log": {
+				"add": {
+					"component_groups": [
+						"display:stripped_poplar_log"
+					]
+				}
+			},
+			"poplar_wood": {
+				"add": {
+					"component_groups": [
+						"display:poplar_wood"
+					]
+				}
+			},
+			"stripped_poplar_wood": {
+				"add": {
+					"component_groups": [
+						"display:stripped_poplar_wood"
+					]
+				}
+			},
+			"poplar_planks": {
+				"add": {
+					"component_groups": [
+						"display:poplar_planks"
+					]
+				}
+			},
+			"poplar_stairs": {
+				"add": {
+					"component_groups": [
+						"display:poplar_stairs"
+					]
+				}
+			},
+			"poplar_slab": {
+				"add": {
+					"component_groups": [
+						"display:poplar_slab"
+					]
+				}
+			},
+			"poplar_fence": {
+				"add": {
+					"component_groups": [
+						"display:poplar_fence"
+					]
+				}
+			},
+			"poplar_fence_gate": {
+				"add": {
+					"component_groups": [
+						"display:poplar_fence_gate"
+					]
+				}
+			},
+			"poplar_button": {
+				"add": {
+					"component_groups": [
+						"display:poplar_button"
+					]
+				}
+			},
+			"poplar_pressure_plate": {
+				"add": {
+					"component_groups": [
+						"display:poplar_pressure_plate"
+					]
+				}
+			},
+			"poplar_door": {
+				"add": {
+					"component_groups": [
+						"display:poplar_door"
+					]
+				}
+			},
+			"poplar_trapdoor": {
+				"add": {
+					"component_groups": [
+						"display:poplar_trapdoor"
+					]
+				}
+			},
+			"poplar_sapling": {
+				"add": {
+					"component_groups": [
+						"display:poplar_sapling"
+					]
+				}
+			},
+			"poplar_shelf": {
+				"add": {
+					"component_groups": [
+						"display:poplar_shelf"
+					]
+				}
+			},
+			"red_poplar_leaves": {
+				"add": {
+					"component_groups": [
+						"display:red_poplar_leaves"
+					]
+				}
+			},
+			"orange_poplar_leaves": {
+				"add": {
+					"component_groups": [
+						"display:orange_poplar_leaves"
+					]
+				}
+			},
+			"yellow_poplar_leaves": {
+				"add": {
+					"component_groups": [
+						"display:yellow_poplar_leaves"
+					]
+				}
+			},
+			"shelf_mushroom_small": {
+				"add": {
+					"component_groups": [
+						"display:shelf_mushroom_small"
+					]
+				}
+			},
+			"shelf_mushroom_large": {
+				"add": {
+					"component_groups": [
+						"display:shelf_mushroom_large"
+					]
+				}
+			},
+			"red_shrub": {
+				"add": {
+					"component_groups": [
+						"display:red_shrub"
+					]
+				}
+			},
+			"straw_bed": {
+				"add": {
+					"component_groups": [
+						"display:straw_bed"
 					]
 				}
 			}
