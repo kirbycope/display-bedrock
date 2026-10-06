@@ -651,7 +651,24 @@
 				"variant_641": "textures/items/candles/purple_candle",
 				"variant_642": "textures/items/candles/red_candle",
 				"variant_643": "textures/items/candles/white_candle",
-				"variant_644": "textures/items/candles/yellow_candle"
+				"variant_644": "textures/items/candles/yellow_candle",
+				"variant_645": "textures/items/white_cushion",
+				"variant_646": "textures/items/orange_cushion",
+				"variant_647": "textures/items/magenta_cushion",
+				"variant_648": "textures/items/light_blue_cushion",
+				"variant_649": "textures/items/yellow_cushion",
+				"variant_650": "textures/items/lime_cushion",
+				"variant_651": "textures/items/pink_cushion",
+				"variant_652": "textures/items/gray_cushion",
+				"variant_653": "textures/items/light_gray_cushion",
+				"variant_654": "textures/items/cyan_cushion",
+				"variant_655": "textures/items/purple_cushion",
+				"variant_656": "textures/items/blue_cushion",
+				"variant_657": "textures/items/brown_cushion",
+				"variant_658": "textures/items/green_cushion",
+				"variant_659": "textures/items/red_cushion",
+				"variant_660": "textures/items/black_cushion",
+				"variant_661": "textures/items/straw_bed"
 			},
 			"geometry": {
 				"default": "geometry.item"
