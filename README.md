@@ -4,7 +4,7 @@
 Display Blocks and Items for Minecraft Bedrock Edition.
 
 ## Installation
-1. Download the [mcaddon](https://github.com/kirbycope/display-bedrock/raw/main/display-bedrock.mcaddon)
+1. Download the [mcaddon](https://github.com/kirbycope/display-bedrock/releases/latest/download/display-bedrock.mcaddon) from the latest release
 1. Double-click the `.mcaddon` file
 1. Edit world
    - Activate the Behavior pack
