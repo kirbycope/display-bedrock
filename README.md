@@ -16,6 +16,14 @@ Display Blocks and Items for Minecraft Bedrock Edition.
 1. When summoning, replace `~ ~ ~ ~ ~` with ` ~ ~ ~ 0 ~` or ` ~ ~ ~ 90 ~` to rotate with the grid.
 1. You can teleport the "block" or "item" and rotate it, try `teleport @e[​type=display:block] ~ ~ ~ ~90 ~90`.
 
+## Doors and Trapdoors
+
+Type `/summon display:door ~ ~ ~ ~ ~ ` to see the wood options (oak, spruce, birch, jungle, acacia, dark_oak, mangrove, cherry, bamboo, crimson, warped, iron, poplar, copper).
+
+Type `/summon display:trapdoor ~ ~ ~ ~ ~ ` to see the trapdoor options.
+
+Click a door or trapdoor to open and close it. Collision turns off when open so you can walk through.
+
 ## Usage
 To summon a "cobblestone" block, run `summon display:block` (cobblestone is the default texture).
 To summon a "stone" block, run `summon display:block ~ ~ ~ ~ ~ stone` (stone is an event that turns the block to stone).

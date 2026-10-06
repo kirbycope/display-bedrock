@@ -4,3 +4,6 @@ minecraftWorlds/
 resource_packs/
 world_templates/
 ud*.dat
+
+# built by tools/build_addon.py / release workflow
+*.mcaddon

@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "display:trapdoor",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"variant_0": "textures/blocks/trapdoor",
+				"variant_1": "textures/blocks/spruce_trapdoor",
+				"variant_2": "textures/blocks/birch_trapdoor",
+				"variant_3": "textures/blocks/jungle_trapdoor",
+				"variant_4": "textures/blocks/acacia_trapdoor",
+				"variant_5": "textures/blocks/dark_oak_trapdoor",
+				"variant_6": "textures/blocks/mangrove_trapdoor",
+				"variant_7": "textures/blocks/cherry_trapdoor",
+				"variant_8": "textures/blocks/bamboo_trapdoor",
+				"variant_9": "textures/blocks/huge_fungus/crimson_trapdoor",
+				"variant_10": "textures/blocks/huge_fungus/warped_trapdoor",
+				"variant_11": "textures/blocks/iron_trapdoor",
+				"variant_12": "textures/blocks/poplar_trapdoor",
+				"variant_13": "textures/blocks/copper_trapdoor"
+			},
+			"geometry": {
+				"default": "geometry.trapdoor"
+			},
+			"animations": {
+				"animation.trapdoor.closed": "animation.trapdoor.closed",
+				"animation.trapdoor.open": "animation.trapdoor.open"
+			},
+			"animation_controllers": [
+				{
+					"trapdoor": "controller.animation.trapdoor"
+				}
+			],
+			"render_controllers": [
+				"controller.render.trapdoor"
+			],
+			"spawn_egg": {
+				"base_color": "#654321",
+				"overlay_color": "#8B7355"
+			}
+		}
+	}
+}

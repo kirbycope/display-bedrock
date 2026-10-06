@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "display:door",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"variant_0": "textures/blocks/door_wood_lower",
+				"variant_1": "textures/blocks/door_spruce_lower",
+				"variant_2": "textures/blocks/door_birch_lower",
+				"variant_3": "textures/blocks/door_jungle_lower",
+				"variant_4": "textures/blocks/door_acacia_lower",
+				"variant_5": "textures/blocks/door_dark_oak_lower",
+				"variant_6": "textures/blocks/mangrove_door_bottom",
+				"variant_7": "textures/blocks/cherry_door_bottom",
+				"variant_8": "textures/blocks/bamboo_door_bottom",
+				"variant_9": "textures/blocks/huge_fungus/crimson_door_lower",
+				"variant_10": "textures/blocks/huge_fungus/warped_door_lower",
+				"variant_11": "textures/blocks/door_iron_lower",
+				"variant_12": "textures/blocks/poplar_door_bottom",
+				"variant_13": "textures/blocks/copper_door_bottom"
+			},
+			"geometry": {
+				"default": "geometry.door"
+			},
+			"animations": {
+				"animation.door.closed": "animation.door.closed",
+				"animation.door.open": "animation.door.open"
+			},
+			"animation_controllers": [
+				{
+					"door": "controller.animation.door"
+				}
+			],
+			"render_controllers": [
+				"controller.render.door"
+			],
+			"spawn_egg": {
+				"base_color": "#8B4513",
+				"overlay_color": "#D2691E"
+			}
+		}
+	}
+}

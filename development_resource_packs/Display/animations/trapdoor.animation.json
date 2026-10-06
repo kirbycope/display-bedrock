@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.trapdoor.closed": {
+			"loop": true,
+			"bones": {
+				"trapdoor": {
+					"rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.trapdoor.open": {
+			"loop": true,
+			"bones": {
+				"trapdoor": {
+					"rotation": [
+						-90,
+						0,
+						0
+					]
+				}
+			}
+		}
+	}
+}

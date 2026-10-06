@@ -2,3 +2,7 @@ entity.display:block.name=Block
 item.spawn_egg.entity.display:block.name=Spawn Block
 entity.display:item.name=Item
 item.spawn_egg.entity.display:item.name=Spawn Item
+entity.display:door.name=Door
+item.spawn_egg.entity.display:door.name=Spawn Door
+entity.display:trapdoor.name=Trapdoor
+item.spawn_egg.entity.display:trapdoor.name=Spawn Trapdoor

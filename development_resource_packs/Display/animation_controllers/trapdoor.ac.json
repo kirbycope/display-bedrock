@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.trapdoor": {
+			"states": {
+				"closed": {
+					"animations": [
+						"animation.trapdoor.closed"
+					],
+					"transitions": [
+						{
+							"open": "query.variant >= 100"
+						}
+					]
+				},
+				"open": {
+					"animations": [
+						"animation.trapdoor.open"
+					],
+					"transitions": [
+						{
+							"closed": "query.variant < 100"
+						}
+					]
+				}
+			}
+		}
+	}
+}

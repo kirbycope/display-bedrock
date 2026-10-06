@@ -1,0 +1,36 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.trapdoor": {
+            "geometry": "Geometry.trapdoor",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Array.variant[math.mod(query.variant, 100)]"
+            ],
+            "arrays": {
+                "textures": {
+                    "Array.variant": [
+                        "Texture.variant_0",
+                        "Texture.variant_1",
+                        "Texture.variant_2",
+                        "Texture.variant_3",
+                        "Texture.variant_4",
+                        "Texture.variant_5",
+                        "Texture.variant_6",
+                        "Texture.variant_7",
+                        "Texture.variant_8",
+                        "Texture.variant_9",
+                        "Texture.variant_10",
+                        "Texture.variant_11",
+                        "Texture.variant_12",
+                        "Texture.variant_13"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.door": {
+			"states": {
+				"closed": {
+					"animations": [
+						"animation.door.closed"
+					],
+					"transitions": [
+						{
+							"open": "query.variant >= 100"
+						}
+					]
+				},
+				"open": {
+					"animations": [
+						"animation.door.open"
+					],
+					"transitions": [
+						{
+							"closed": "query.variant < 100"
+						}
+					]
+				}
+			}
+		}
+	}
+}
