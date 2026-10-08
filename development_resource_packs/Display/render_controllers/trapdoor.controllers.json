@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "render_controllers": {
         "controller.render.trapdoor": {
-            "geometry": "Geometry.trapdoor",
+            "geometry": "Geometry.default",
             "materials": [
                 {
                     "*": "Material.default"
