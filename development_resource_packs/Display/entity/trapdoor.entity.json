@@ -27,13 +27,14 @@
 			},
 			"animations": {
 				"animation.trapdoor.closed": "animation.trapdoor.closed",
-				"animation.trapdoor.open": "animation.trapdoor.open"
+				"animation.trapdoor.open": "animation.trapdoor.open",
+				"trapdoor": "controller.animation.trapdoor"
 			},
-			"animation_controllers": [
-				{
-					"trapdoor": "controller.animation.trapdoor"
-				}
-			],
+			"scripts": {
+				"animate": [
+					"trapdoor"
+				]
+			},
 			"render_controllers": [
 				"controller.render.trapdoor"
 			],

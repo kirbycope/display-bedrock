@@ -12,338 +12,338 @@
 				"interactions": [
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 0
+							},
 							"event": "oak_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 0
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 100
+							},
 							"event": "oak_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 100
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 1
+							},
 							"event": "spruce_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 1
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 101
+							},
 							"event": "spruce_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 101
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 2
+							},
 							"event": "birch_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 2
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 102
+							},
 							"event": "birch_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 102
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 3
+							},
 							"event": "jungle_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 3
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 103
+							},
 							"event": "jungle_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 103
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 4
+							},
 							"event": "acacia_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 4
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 104
+							},
 							"event": "acacia_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 104
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 5
+							},
 							"event": "dark_oak_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 5
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 105
+							},
 							"event": "dark_oak_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 105
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 6
+							},
 							"event": "mangrove_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 6
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 106
+							},
 							"event": "mangrove_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 106
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 7
+							},
 							"event": "cherry_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 7
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 107
+							},
 							"event": "cherry_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 107
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 8
+							},
 							"event": "bamboo_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 8
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 108
+							},
 							"event": "bamboo_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 108
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 9
+							},
 							"event": "crimson_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 9
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 109
+							},
 							"event": "crimson_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 109
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 10
+							},
 							"event": "warped_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 10
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 110
+							},
 							"event": "warped_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 110
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 11
+							},
 							"event": "iron_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 11
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 111
+							},
 							"event": "iron_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 111
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 12
+							},
 							"event": "poplar_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 12
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 112
+							},
 							"event": "poplar_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 112
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 13
+							},
 							"event": "copper_open",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 13
 						}
 					},
 					{
 						"on_interact": {
+							"filters": {
+								"test": "is_variant",
+								"subject": "self",
+								"operator": "==",
+								"value": 113
+							},
 							"event": "copper_close",
 							"target": "self"
-						},
-						"filters": {
-							"test": "variant",
-							"subject": "self",
-							"operator": "==",
-							"value": 113
 						}
 					}
 				]

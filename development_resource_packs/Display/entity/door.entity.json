@@ -27,13 +27,14 @@
 			},
 			"animations": {
 				"animation.door.closed": "animation.door.closed",
-				"animation.door.open": "animation.door.open"
+				"animation.door.open": "animation.door.open",
+				"door": "controller.animation.door"
 			},
-			"animation_controllers": [
-				{
-					"door": "controller.animation.door"
-				}
-			],
+			"scripts": {
+				"animate": [
+					"door"
+				]
+			},
 			"render_controllers": [
 				"controller.render.door"
 			],
