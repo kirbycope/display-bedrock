@@ -43,3 +43,7 @@ Place two armor stands and tag one "A" and the other "B". Stand between them and
 
 ## Tiny House Demo
 Run `function summon-tiny-house`.
+
+## Requirements
+Minecraft Bedrock 1.26.0 or newer, with no experiments.
+

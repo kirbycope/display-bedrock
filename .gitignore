@@ -7,3 +7,5 @@ ud*.dat
 
 # built by tools/build_addon.py / release workflow
 *.mcaddon
+
+/build/

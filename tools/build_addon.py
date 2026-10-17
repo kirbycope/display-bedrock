@@ -24,7 +24,7 @@ PACKS = {  # folder in the archive -> pack in the repository
     "Display Resources": "development_resource_packs/Display",
 }
 
-OUTPUT = os.path.join(ROOT, "display-bedrock.mcaddon")
+OUTPUT = os.path.join(ROOT, "build", "display-bedrock.mcaddon")
 
 STAMP = (2026, 1, 1, 0, 0, 0)  # fixed timestamp keeps the archive reproducible, so --check can compare it
 STORED = {".png", ".jpg", ".jpeg", ".ogg", ".fsb"}
