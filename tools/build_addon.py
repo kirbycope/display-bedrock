@@ -82,6 +82,7 @@ def main() -> int:
         print("up to date" if current else f"out of date: {os.path.relpath(args.output, ROOT)}")
         return 0 if current else 1
 
+    os.makedirs(os.path.dirname(os.path.abspath(args.output)), exist_ok=True)
     with open(args.output, "wb") as handle:
         handle.write(data)
     print(f"wrote {os.path.relpath(args.output, ROOT)} ({len(data)} bytes)")
