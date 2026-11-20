@@ -2,9 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"name": "Display",
-		"description": "Display Resource Pack (1.26.50 update)",
+		"description": "Display Resource Pack 1.27.1",
 		"uuid": "e45556b3-04cc-c858-01a6-f4f7d9bb2c92",
-		"version": [1, 27, 0],
+		"version": [1, 27, 1],
 		"min_engine_version": [1, 26, 0]
 	},
 	"metadata": {
@@ -15,7 +15,7 @@
 			"description": "Display",
 			"type": "resources",
 			"uuid": "cfb9089a-da73-6853-3dd7-c00a411b0a6b",
-			"version": [1, 27, 0]
+			"version": [1, 27, 1]
 		}
 	]
 }
